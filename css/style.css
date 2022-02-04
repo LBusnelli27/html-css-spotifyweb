@@ -37,18 +37,17 @@ main {
 }
 
 h2 {
-    color: #ffffff;
     font-size: 1.3rem;
     margin: 3% 0;
     text-transform: uppercase;
 }
 
-.active-nav {
-    border-left: 4px solid #adff2f;
+.color-white {
+    color: #ffffff;
 }
 
-.active-nav p {
-    color: #ffffff;
+.active-nav {
+    border-left: 4px solid #adff2f;
 }
 
 .section-side-nav {
@@ -62,9 +61,13 @@ h2 {
     justify-content: space-between;
 }
 
+.logo-big {
+    padding-left: 5%;
+}
+
 .section-side-nav img {
     width: 60%;
-    margin: 5% 0;
+    margin: 5% 5% 5% 0;
 }
 
 .top-nav {
@@ -112,8 +115,17 @@ h2 {
 }
 
 .bottom-nav-profile {
-    
+    align-items: center;
 }
+
+.bottom-nav-profile img {
+    width: 13%;
+    padding: 1%;
+    background-color: #77797e;
+    border-radius: 50%;
+}
+
+
 
 
 .section-main-content {
@@ -123,7 +135,7 @@ h2 {
     height: 100%;
 }
 
-.contaienr-upgrade-call {
+.container-upgrade-call {
     background-color: #080b12;
     position: fixed;
     width: 85%;
@@ -145,8 +157,20 @@ h2 {
     border-radius: 30px;
 }
 
-.upgrade-button p {
-    color: #ffffff;
+.container-main-content {
+    padding-top: 10%;
+}
+
+.container-nav-categories {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.nav-categories {
+    list-style: none;
+    text-transform: uppercase;
+
+    justify-content: space-around;
 }
 
 
