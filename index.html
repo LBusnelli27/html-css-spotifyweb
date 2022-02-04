@@ -7,6 +7,8 @@
 
     <title>Spotify Web</title>
 
+    <!-- Font-Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="http://fonts.cdnfonts.com/css/circular-std" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
@@ -16,28 +18,59 @@
 
 <body>
     <main class="clearfix">
-        <section class="section-side-nav float-left">
-            <img src="img/logo.svg" alt="Logo Spotify">
+        <section class="section-side-nav float-left flex">
+            <div class="top-section-nav">
+                <img src="img/logo.svg" alt="Logo Spotify">
 
-            <div class="top-nav flex">
-                <div class="flex active-nav">
-                    <img src="img/home.svg" alt="Icona Home">
-                    <p>Home</p>
+                <div class="top-nav flex">
+                    <div class="flex active-nav">
+                        <img src="img/home.svg" alt="Icona Home">
+                        <p>Home</p>
+                    </div>
+                    <div class="flex">
+                        <img src="img/search.svg" alt="Icona Cerca">
+                        <p>Cerca</p>
+                    </div>
+                    <div class="flex">
+                        <img src="img/libreria.svg" alt="Icona Libreira">
+                        <p>La tua libreria</p>
+                    </div>
                 </div>
-                <div class="flex">
-                    <img src="img/search.svg" alt="Icona Home">
-                    <p>Cerca</p>
-                </div>
-                <div class="flex">
-                    <img src="img/libreria.svg" alt="Icona Home">
-                    <p>La tua libreria</p>
+
+                <div class="playlist-nav">
+                    <h2>Playlist</h2>
+
+                    <div class="add-playlist flex">
+                        <i class="fas fa-plus-square"></i>
+                        <p>Crea Playlist</p>
+                    </div>
+
+                    <div class="playlist-list">
+                        <ul>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
-            <div class="playlist-nav">
-                <div>
+            <div class="bottom-section-nav">
+                <div class="bottom-nav-download flex">
+                    <img src="img/download.svg" alt="Icona Download">
+                    <p>Installa app</p>
                 </div>
-                <div></div>
+
+                    <hr>
+
+                    <div class="bottom-nav-profile flex">
+                        <img src="img/profile.svg" alt="Immagine Profilo">
+                        <p>John Doe</p>
+                    </div>
             </div>
         </section>
 
