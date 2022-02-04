@@ -71,7 +71,7 @@ h2 {
 }
 
 .top-nav {
-    width: 70%;
+    width: 100%;
     line-height: 10%;
     margin-bottom: 10%;
 
@@ -85,7 +85,7 @@ h2 {
 }
 
 .top-nav img {
-    width: 17%;
+    width: 15%;
 }
 
 .add-playlist {
