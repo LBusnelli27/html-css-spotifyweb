@@ -23,6 +23,10 @@
     float: left;
 }
 
+.float-right {
+    float: right;
+}
+
 
 
 main {
@@ -48,9 +52,23 @@ main {
 .contaienr-upgrade-call {
     background-color: #080b12;
     position: fixed;
-
-    width: 100%;
+    width: 85%;
     height: 10%;
+    opacity: 0.8;
+
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.upgrade-button {
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 2px solid #ffffff;
+    text-align: center;
+
+    padding: 10px 20px;
+    margin: 0%5px;
+    border-radius: 30px;
 }
 
 
