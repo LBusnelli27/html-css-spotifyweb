@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+* {
+    font-family: 'Circular Std', sans-serif;
+}
+
 .flex {
     display: flex;
 }
