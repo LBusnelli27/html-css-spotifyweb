@@ -29,7 +29,7 @@
     float: right;
 }
 
-.hover-white {
+.hover-white:hover {
     color: #ffffff;
     cursor: pointer;
 }
