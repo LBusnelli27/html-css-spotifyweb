@@ -29,6 +29,16 @@
     float: right;
 }
 
+.hover-white {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
 
 
 main {
@@ -117,6 +127,7 @@ h3 {
     margin-right: 5%;
 }
 
+
 .playlist-list {
     overflow-y: auto;
 }
@@ -133,6 +144,7 @@ h3 {
 .bottom-nav-download p {
     align-items: center;
 }
+
 
 .bottom-nav-download img {
     width: 10%;
@@ -202,11 +214,6 @@ h3 {
     list-style: none;
 
     justify-content: space-around;
-}
-
-.nav-categories li:hover {
-    color: #ffffff;
-    cursor: pointer;
 }
 
 .container-album {
