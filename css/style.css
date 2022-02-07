@@ -180,8 +180,12 @@ h3 {
     text-align: center;
 
     padding: .5% 2%;
-    margin: 0 5px;
+    margin: 0 15px;
     border-radius: 30px;
+}
+
+.upgrade-button:hover {
+    transform: scale(1.05);
 }
 
 .container-main-content {
@@ -214,8 +218,45 @@ h3 {
     width: 300px;
 }
 
-.img-round {
+.album-card img {
+    width: 300px;
+    height: 300px;
+}
+
+.img-container {
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.shade {
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    opacity: 0.5;
+    z-index: 5;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.border-50 {
     border-radius: 50%;
+}
+
+.shade .fa-play-circle {
+    font-size: 4rem;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-container:hover .shade{
+    display: block;
 }
 
 
