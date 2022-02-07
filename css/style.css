@@ -36,9 +36,17 @@ main {
     height: 90vh;
 }
 
+h1 {
+    font-size: 2rem;
+    margin: 30px 0;
+}
+
 h2 {
     font-size: 1.3rem;
-    margin: 3% 0;
+    margin: 20px 0;
+}
+
+.uppercase {
     text-transform: uppercase;
 }
 
@@ -162,7 +170,7 @@ h2 {
 }
 
 .container-main-content {
-    padding-top: 9%;
+    padding: 150px 20px;
 }
 
 .container-nav-categories {
@@ -172,9 +180,21 @@ h2 {
 
 .nav-categories {
     list-style: none;
-    text-transform: uppercase;
 
     justify-content: space-around;
+}
+
+.container-recently-play {
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.album-card {
+    text-align: center;
+}
+
+.album-card h2 {
+    width: 300px;
 }
 
 
