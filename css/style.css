@@ -186,6 +186,7 @@ h3 {
 
 .upgrade-button:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .container-main-content {
