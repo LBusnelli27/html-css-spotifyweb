@@ -204,6 +204,11 @@ h3 {
     justify-content: space-around;
 }
 
+.nav-categories li:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
 .container-album {
     margin-top: 30px;
     gap: 0 40px;
