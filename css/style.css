@@ -46,6 +46,11 @@ h2 {
     margin: 20px 0;
 }
 
+h3 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -223,4 +228,62 @@ footer {
 
     width: 100%;
     height: 10vh;
+    padding: 20px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.song-played-footer {
+    gap: 0 15px;
+    align-items: center;
+}
+
+.song-name-footer {
+    margin: 0 40px 0 0;
+}
+
+.song-played-footer img {
+    width: 70px;
+    height: 70px;
+}
+
+.player-footer{
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-buttons {
+    align-items: center;
+}
+
+.player-buttons i {
+    font-size: 1.2rem;
+    margin: 0 20px;
+}
+
+.player-buttons .fa-play-circle {
+    font-size: 2.3rem;
+}
+
+.player-time {
+    align-items: center;
+}
+
+.time-bar {
+    margin: 0 20px;
+
+    width: 700px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: #5a5a5a;
+}
+
+.time-passed {
+    width: 170px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #c1c1c1;
 }
