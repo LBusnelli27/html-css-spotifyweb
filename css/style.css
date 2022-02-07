@@ -29,6 +29,13 @@
     float: right;
 }
 
+
+
+.hover-scale:hover {
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
 .hover-white:hover {
     color: #ffffff;
     cursor: pointer;
@@ -200,10 +207,6 @@ h3 {
     border-radius: 30px;
 }
 
-.upgrade-button:hover {
-    transform: scale(1.05);
-    cursor: pointer;
-}
 
 .container-main-content {
     padding: 150px 30px;
@@ -304,6 +307,10 @@ footer {
 .song-played-footer img {
     width: 70px;
     height: 70px;
+}
+
+.fa-heart, .fa-folder {
+    font-size: 1.3rem;
 }
 
 .player-footer{
