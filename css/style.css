@@ -34,6 +34,10 @@
     cursor: pointer;
 }
 
+.hover-underline:hover {
+    text-decoration: underline;
+}
+
 li:hover {
     color: #ffffff;
     cursor: pointer;
