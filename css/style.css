@@ -272,17 +272,40 @@ footer {
     align-items: center;
 }
 
+.player-time h3 {
+    font-weight: 200;
+}
+
 .time-bar {
     margin: 0 20px;
 
     width: 700px;
-    height: 10px;
+    height: 7px;
     border-radius: 20px;
     background-color: #5a5a5a;
 }
 
 .time-passed {
     width: 170px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #c1c1c1;
+}
+
+.volume-stream-footer {
+    gap: 0 20px;
+    align-items: center;
+}
+
+.volume-bar {
+    width: 150px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: #5a5a5a;
+}
+
+.volume-set {
+    width: 50px;
     height: 100%;
     border-radius: 20px;
     background-color: #c1c1c1;
