@@ -350,11 +350,33 @@ footer {
     background-color: #5a5a5a;
 }
 
+.player-time:hover .time-passed {
+    background-color: #adff2f;
+}
+
+.player-time:hover .bar-circle .fa-circle {
+    display: block;
+}
+
 .time-passed {
     width: 170px;
     height: 100%;
     border-radius: 20px;
     background-color: #c1c1c1;
+
+    position: relative;
+
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.bar-circle .fa-circle{
+    display: none;
+
+    font-size: 1.4rem;
+    position: absolute;
+    right: -10px;
+    top: -10px;
 }
 
 .volume-stream-footer {
@@ -364,7 +386,7 @@ footer {
 
 .volume-bar {
     width: 150px;
-    height: 5px;
+    height: 6px;
     border-radius: 20px;
     background-color: #5a5a5a;
 }
@@ -374,4 +396,17 @@ footer {
     height: 100%;
     border-radius: 20px;
     background-color: #c1c1c1;
+
+    position: relative;
+
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.volume-bar:hover .volume-set {
+    background-color: #adff2f;
+}
+
+.volume-bar:hover .bar-circle .fa-circle {
+    display: block;
 }
