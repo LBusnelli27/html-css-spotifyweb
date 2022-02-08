@@ -420,15 +420,32 @@ footer {
 
 /* MEDIA QUERIES */
 
-/* SCREEN XL */
-@media screen and (max-width: 992px) {
+/* SCREEN SIZE L */
+@media screen and (min-width: 769px) and (max-width: 992px) {
 
     .album-card {
         width: calc(25% - 15px);
+        margin-bottom: 40px;
     }
 
     h2 {
         font-size: 1.1rem;
         margin: 15px 0;
+    }
+}
+
+
+
+/* SCREEN SIZE M */
+@media screen and (max-width: 768px) {
+
+    .album-card {
+        width: calc(50% - 15px);
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        font-size: 1rem;
+        margin: 10px 0;
     }
 }
