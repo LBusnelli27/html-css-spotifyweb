@@ -206,7 +206,7 @@ h3 {
     border: 2px solid #ffffff;
     text-align: center;
 
-    padding: .5% 2%;
+    padding: 10px 30px;
     margin: 0 15px;
     border-radius: 30px;
 }
@@ -229,27 +229,24 @@ h3 {
 
 .container-album {
     margin-top: 30px;
-    gap: 0 40px;
+    gap: 0 20px;
 
     flex-wrap: wrap;
 }
 
 .album-card {
     text-align: center;
-}
 
-.album-card h2 {
-    width: 300px;
+    width: calc(17% - 25px);
 }
 
 .album-card img {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
 }
 
 .img-container {
-    height: 300px;
-    width: 300px;
+    width: 100%;
     position: relative;
 }
 
@@ -422,3 +419,16 @@ footer {
 
 
 /* MEDIA QUERIES */
+
+/* SCREEN XL */
+@media screen and (max-width: 992px) {
+
+    .album-card {
+        width: calc(25% - 15px);
+    }
+
+    h2 {
+        font-size: 1.1rem;
+        margin: 15px 0;
+    }
+}
