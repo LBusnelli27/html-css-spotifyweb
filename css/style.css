@@ -224,7 +224,7 @@ h3 {
 
 .bottom-nav-profile img {
     width: 13%;
-    padding: 1%;
+    margin-right: 10px;
     background-color: #77797e;
     border-radius: 50%;
 }
@@ -359,7 +359,7 @@ footer {
 
     width: 100%;
     height: 10vh;
-    padding: 20px;
+    padding: 10px;
 
     justify-content: space-between;
     align-items: center;
@@ -367,18 +367,21 @@ footer {
 
 /* Song in play section */
 .song-played-footer {
-    width: 10%;
+    width: 15%;
 
     gap: 0 15px;
     align-items: center;
 }
 
-.song-name-footer {
+.song-played-container {
     width: 100%;
+
+    gap: 5px;
+    align-items: center;
 }
 
 .song-played-footer img {
-    width: 100%;
+    width: 70px;
     height: 100%;
 }
 
@@ -568,11 +571,9 @@ footer {
     }
 
 
-    .playlist-nav {
-        display: none;
-    }
-
-    .section-side-nav p {
+    .playlist-nav,
+    .section-side-nav p,
+    .logo-big {
         display: none;
     }
 
@@ -581,15 +582,30 @@ footer {
         margin: 20px 0;
     }
 
-    .logo-big {
-        display: none;
-    }
-
     .logo-small {
         display: block;
     }
 
     .container-logo {
         justify-content: center;
+    }
+
+    .song-played-footer .song-name-footer {
+        font-size: 0.8rem;
+    }
+
+    .song-played-footer img {
+        width: 50px;
+    }
+
+    .player-footer{
+        width: 40%;
+    
+        gap: 10px;
+    }
+
+    .song-played-footer,
+    .volume-stream-footer {
+        width: 20%;
     }
 }
