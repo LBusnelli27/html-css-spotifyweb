@@ -220,12 +220,19 @@ h3 {
 .container-nav-categories {
     width: 60%;
     margin: 0 auto;
+    
+    justify-content: center;
 }
 
 .nav-categories {
     list-style: none;
 
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-categories li {
+    margin: 20px 10px;
 }
 
 .container-album {
