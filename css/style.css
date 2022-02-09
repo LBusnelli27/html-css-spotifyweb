@@ -32,7 +32,7 @@
 
 
 
-/* Hover */
+/* HOVER */
 .hover-scale:hover {
     transform: scale(1.07);
     cursor: pointer;
@@ -52,9 +52,28 @@ li:hover {
     cursor: pointer;
 }
 
+.player-time:hover .time-passed {
+    background-color: #adff2f;
+}
+
+.player-time:hover .bar-circle .fa-circle {
+    display: block;
+}
+
+.volume-bar:hover .volume-set {
+    background-color: #adff2f;
+}
+
+.volume-bar:hover .bar-circle .fa-circle {
+    display: block;
+    font-size: 1.2rem;
+    right: -8px;
+    top: -8px;
+}
 
 
-/* Main classes */
+
+/* Main classes to set basic features */
 main {
     width: 100%;
     height: 90vh;
@@ -85,6 +104,8 @@ h3 {
 
 
 
+/* MAIN */
+
 /* Classes for active border */
 .active-nav {
     border-left: 4px solid #adff2f;
@@ -96,6 +117,7 @@ h3 {
 
 
 
+/* Section side nav */
 .section-side-nav {
     background-color: #000000;
 
@@ -113,6 +135,7 @@ h3 {
 }
 
 
+/* Logo container */
 .container-logo {
     width: 100%;
     padding: 5px;
@@ -120,15 +143,19 @@ h3 {
     align-items: center;
 }
 
+/* When the logo is big */
 .logo-big {
     padding: 20px 0;
     width: 80%;
 }
 
+/* When the logo is small */
 .logo-small {
     display: none;
 }
 
+
+/* Top part of nav */
 .top-nav {
     width: 100%;
     line-height: 10%;
@@ -164,7 +191,7 @@ h3 {
     margin-right: 5%;
 }
 
-
+/* Playlist part */
 .playlist-list {
     overflow-y: auto;
 }
@@ -174,6 +201,9 @@ h3 {
     padding: 3% 0;
 }
 
+
+
+/* Bottom part of nav */
 .bottom-section-nav {
     z-index: 3;
 }
@@ -181,7 +211,6 @@ h3 {
 .bottom-nav-download p {
     align-items: center;
 }
-
 
 .bottom-nav-download img {
     width: 10%;
@@ -203,6 +232,7 @@ h3 {
 
 
 
+/* Section main content main */
 .section-main-content {
     background-color: #141922;
 
@@ -212,6 +242,7 @@ h3 {
     overflow-x: hidden;
 }
 
+/* Upgrade call-to-action button */
 .container-upgrade-call {
     background-color: #080b12;
     position: fixed;
@@ -236,6 +267,7 @@ h3 {
 }
 
 
+/* Container for main content like album */
 .container-main-content {
     padding: 150px 30px;
 }
@@ -247,6 +279,7 @@ h3 {
     justify-content: center;
 }
 
+/* Nav for categories */
 .nav-categories {
     list-style: none;
 
@@ -265,6 +298,8 @@ h3 {
     flex-wrap: wrap;
 }
 
+
+/* Album card */
 .album-card {
     text-align: center;
 
@@ -281,6 +316,12 @@ h3 {
     position: relative;
 }
 
+/* Class for make circle images and shade */
+.border-50 {
+    border-radius: 50%;
+}
+
+/* Classes to make shades when you go hover the albums */
 .shade {
     display: none;
     height: 100%;
@@ -292,10 +333,6 @@ h3 {
     position: absolute;
     top: 0;
     left: 0;
-}
-
-.border-50 {
-    border-radius: 50%;
 }
 
 .shade .fa-play-circle {
@@ -314,6 +351,7 @@ h3 {
 
 
 
+/* FOOTER */
 footer {
     background-color: #282828;
     position: fixed;
@@ -327,6 +365,7 @@ footer {
     align-items: center;
 }
 
+/* Song in play section */
 .song-played-footer {
     width: 10%;
 
@@ -347,6 +386,8 @@ footer {
     font-size: 1.3rem;
 }
 
+
+/* Player controller section */
 .player-footer{
     width: 50%;
 
@@ -381,6 +422,7 @@ footer {
     font-weight: 200;
 }
 
+/* For make time bar */
 .time-bar {
     margin: 0 20px;
 
@@ -388,14 +430,6 @@ footer {
     height: 7px;
     border-radius: 20px;
     background-color: #5a5a5a;
-}
-
-.player-time:hover .time-passed {
-    background-color: #adff2f;
-}
-
-.player-time:hover .bar-circle .fa-circle {
-    display: block;
 }
 
 .time-passed {
@@ -410,6 +444,7 @@ footer {
     align-items: center;
 }
 
+/* For make circle on bar */
 .bar-circle .fa-circle{
     display: none;
 
@@ -419,6 +454,8 @@ footer {
     top: -10px;
 }
 
+
+/* Volume controller section */
 .volume-stream-footer {
     width: 15%;
 
@@ -449,16 +486,6 @@ footer {
     align-items: center;
 }
 
-.volume-bar:hover .volume-set {
-    background-color: #adff2f;
-}
-
-.volume-bar:hover .bar-circle .fa-circle {
-    display: block;
-    font-size: 1.2rem;
-    right: -8px;
-    top: -8px;
-}
 
 
 
