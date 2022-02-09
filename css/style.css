@@ -103,13 +103,17 @@ h3 {
     justify-content: space-between;
 }
 
-.logo-big {
-    padding-left: 5%;
+.top-section-nav {
+    width: 100%;
+    height: 70%;
 }
 
-.section-side-nav img {
-    width: 60%;
-    margin: 5% 5% 5% 0;
+.logo-big {
+    padding: 5%;
+}
+
+.container-logo {
+    width: 80%;
 }
 
 .top-nav {
@@ -124,6 +128,10 @@ h3 {
     align-items: center;
 
     padding: 0px 10px;
+}
+
+.top-nav p {
+    font-size: 0.9rem;
 }
 
 .top-nav img {
@@ -218,7 +226,7 @@ h3 {
 }
 
 .container-nav-categories {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     
     justify-content: center;
@@ -440,12 +448,16 @@ footer {
         font-size: 1.1rem;
         margin: 15px 0;
     }
+
+    .top-nav p {
+        font-size: 0.6rem;
+    }
 }
 
 
 
 /* SCREEN SIZE M */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
 
     .album-card {
         width: calc(50% - 15px);
@@ -455,5 +467,28 @@ footer {
     h2 {
         font-size: 1.2rem;
         margin: 10px 0;
+    }
+
+    .top-nav p {
+        font-size: 0.4rem;
+    }
+}
+
+
+
+/* SCREEN SIZE S */
+@media screen and (max-width: 576px) {
+    .album-card {
+        width: calc(50% - 15px);
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        margin: 10px 0;
+    }
+
+    .playlist-nav {
+        display: none;
     }
 }
