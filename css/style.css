@@ -5,6 +5,7 @@
     padding: 0;
 }
 
+/* Font family, size and color for everything */
 * {
     font-family: 'Circular Std', sans-serif;
     font-size: 1.05rem;
@@ -84,6 +85,7 @@ h3 {
 
 
 
+/* Classes for active border */
 .active-nav {
     border-left: 4px solid #adff2f;
 }
@@ -115,12 +117,12 @@ h3 {
     width: 100%;
     padding: 5px;
 
-    justify-content: center;
     align-items: center;
 }
 
 .logo-big {
     padding: 20px 0;
+    width: 80%;
 }
 
 .logo-small {
@@ -558,5 +560,9 @@ footer {
 
     .logo-small {
         display: block;
+    }
+
+    .container-logo {
+        justify-content: center;
     }
 }
