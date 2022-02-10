@@ -111,8 +111,15 @@ h3 {
     border-left: 4px solid #adff2f;
 }
 
+.active-bottom-container {
+    flex-direction: column;
+    align-items: center;
+}
+
 .active-bottom {
-    border-bottom: 3px solid #adff2f;
+    height: 3px;
+    width: 50%;
+    background-color: #adff2f;
 }
 
 
