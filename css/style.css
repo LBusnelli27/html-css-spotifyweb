@@ -213,6 +213,8 @@ h3 {
 /* Bottom part of nav */
 .bottom-section-nav {
     z-index: 3;
+
+    flex-direction: column;
 }
 
 .bottom-nav-download p {
@@ -614,5 +616,17 @@ footer {
     .song-played-footer,
     .volume-stream-footer {
         width: 20%;
+    }
+
+    .bottom-section-nav {
+        justify-content: space-between;
+    }
+
+    .bottom-nav-download {
+        justify-content: center;
+    }
+    
+    .bottom-nav-profile {
+        justify-content: center;
     }
 }
